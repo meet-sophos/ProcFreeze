@@ -6,8 +6,8 @@
 
 `ProcFreeze` demonstrates a simple technique to freeze (suspend) and thaw (resume) an entire Windows process by dynamically resolving undocumented functions exported by `ntdll.dll`:
 
-* `NtSuspendProcess` — suspends all threads in the target process
-* `NtResumeProcess`  — resumes all threads in the target process
+* `NtSuspendProcess` suspends all threads in the target process
+* `NtResumeProcess` resumes all threads in the target process
 
 The project is intentionally small and auditable (single-source-file C implementation) to make it easy to study, adapt, and extend for lab use.
 
