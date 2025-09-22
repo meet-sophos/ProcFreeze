@@ -1,6 +1,6 @@
 # ProcFreeze
 
-**ProcFreeze** — a minimal Windows proof-of-concept to suspend and resume a process by calling undocumented NT APIs from `ntdll.dll` (`NtSuspendProcess` / `NtResumeProcess`). Intended for debugging, malware analysis, and authorized red-team research. **Use responsibly.**
+**ProcFreeze** a minimal Windows proof-of-concept to suspend and resume a process by calling undocumented NT APIs from `ntdll.dll` (`NtSuspendProcess` / `NtResumeProcess`). Intended for debugging, malware analysis, and authorized red-team research. **Use responsibly.**
 
 ## About
 
